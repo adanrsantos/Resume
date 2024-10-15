@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SCC-PasswordJuggernaut</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_create">Create</string>
+
+    <string name="hint_newUsername">New Username</string>
+    <string name="hint_newPassword">New Password</string>
+    <string name="button_done">Done</string>
+    <string name="button_back">Back</string>
+
+    <string name="button_generateHome">Generate New Password</string>
+    <string name="button_view">View Saved Passwords</string>
+    <string name="button_logout">Logout</string>
+
+    <string name="textview_specialChar">Include Special Characters?</string>
+    <string name="button_true">Yes</string>
+    <string name="button_false">No</string>
+    <string name="textview_numbers">Include Numbers?</string>
+    <string name ="textview_length">Length Size?</string>
+    <string name="hint_length">Choose a # between 8 – 20</string>
+    <string name="button_generate">Generate</string>
+    <string name="hint_results">Generated Password Here!</string>
+    <string name="button_save">Save Password?</string>
+
+    <string name="hint_delete">Type a # to Delete 1 - 20</string>
+    <string name="viewHeader">Saved Passwords</string>
+    <string name="button_delete">Delete</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="188dp"
+        android:cropToPadding="true"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logo_main" />
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_username"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Password EditText with proper string resource and autofill hints -->
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:autofillHints="password"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Login Button with proper string resource -->
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_login"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_create"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+</LinearLayout>
