@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+}
+
+.cont {
+    display: flex;
+    width: 90%;
+    border: solid blue;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.img {
+    height: 50px;
+}
